@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="StableUITest" package="com.sample.stableuitest" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="StableUITest" />
+
+	<source path="Source" />
+
+	<haxelib name="stablexui" />
+  <haxelib name="openfl" />
+  <haxelib name="actuate" />
+
+	<assets path="Assets" rename="assets" />
+
+</project>

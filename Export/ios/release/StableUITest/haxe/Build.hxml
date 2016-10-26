@@ -1,0 +1,38 @@
+-main ApplicationMain 
+-cp /usr/local/lib/haxe/lib/stablexui/git/src
+-D stablexui=1.2.0
+--macro keep('IntIterator')
+-cp /usr/local/lib/haxe/lib/hscript/2,0,7
+-D hscript=2.0.7
+--macro openfl.Lib.extraParams()
+-cp /Users/matthew.wallace/Dropbox/dev/haxe/libs/openfl
+-D openfl=4.3.1
+--macro lime.Lib.extraParams()
+-cp /Users/matthew.wallace/Dropbox/dev/haxe/libs/lime
+-D lime=3.3.0
+-cp /usr/local/lib/haxe/lib/actuate/1,8,7
+-D actuate=1.8.7
+-cp ../../../../../
+-cp ../../../../../Source
+-D lime-openal
+-D source-header=haxe
+-D IPHONE_VER=10.0
+-D tools=3.3.0
+-D lime-cairo
+-D no-compilation
+-D lime-opengl
+-D native
+-D lime-native
+-D lime-curl
+-D openfl-native
+-D lime-cffi
+-D ios
+-D mobile
+--remap flash:openfl
+--force
+--sign
+--debug
+-D iphone
+-D ios
+--macro keep("Main")
+-D no-compilation
